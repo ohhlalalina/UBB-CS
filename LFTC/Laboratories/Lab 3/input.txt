@@ -1,0 +1,14 @@
+numar_intreg main {
+numar_intreg n1, n2, n3;
+n1 = 03;
+n2 = 4a;
+n3 = 7
+in_caz_ca (n1 \ n2 and n1 \ n3)
+arata_ne << n1;
+in_caz_contrar
+in_caz_ca (n2 \ n3 and n2 \ n1)
+arata_ne << n2;
+in_caz_contrar
+arata_ne << n3;
+trimite 0a;
+}
