@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/edtDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Description"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/edtHill"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Hill"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/edtLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Location"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/edtStartDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Start Date"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/edtStartHour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Start Hour"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/btAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:theme="@style/Widget.AppCompat.Button"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffffff"
+        android:text="Add" />
+
+</LinearLayout>
