@@ -1,0 +1,130 @@
+numar_intreg
+main
+{
+
+numar_intreg
+n1
+,
+n2
+,
+n3
+,
+n2a
+
+n1
+=
+03
+;
+n2
+=
+4
+;
+n3
+=
+7
+;
+in_caz_ca
+(
+n1
+\
+n2
+and
+n1
+\
+n3
+)
+
+arata_ne
+<<
+n1
+;
+in_caz_contrar
+in_caz_ca
+(
+n2
+\
+n3
+and
+n2
+\
+n1
+)
+
+arata_ne
+<<
+n2
+;
+in_caz_contrar
+arata_ne
+<<
+n3
+;
+trimite
+0a
+;
+}
+PIF
+330 : numar_intreg
+1000 : main
+221 : {
+330 : numar_intreg
+1 : 0
+800 : ,
+1 : 1
+800 : ,
+1 : 2
+800 : ,
+224 : ;
+1 : 0
+116 : =
+224 : ;
+1 : 1
+116 : =
+0 : 3
+224 : ;
+1 : 2
+116 : =
+0 : 4
+224 : ;
+442 : in_caz_ca
+801 : (
+1 : 0
+118 : \
+1 : 1
+450 : and
+1 : 0
+118 : \
+1 : 2
+802 : )
+444 : arata_ne
+900 : <<
+1 : 0
+224 : ;
+441 : in_caz_contrar
+442 : in_caz_ca
+801 : (
+1 : 1
+118 : \
+1 : 2
+450 : and
+1 : 1
+118 : \
+1 : 0
+802 : )
+444 : arata_ne
+900 : <<
+1 : 1
+224 : ;
+441 : in_caz_contrar
+444 : arata_ne
+900 : <<
+1 : 2
+224 : ;
+445 : trimite
+1 : 5
+224 : ;
+226 : }
+Symbol table
+Exception at line 2:Missing semicolon or { at the end of statement!
+Exception at line 2:Constant or identifier contains mistakes!
+Exception at line 4:Constant or identifier contains mistakes!
